@@ -1,0 +1,109 @@
+#p {
+  }
+
+body { 
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #F4F9F9;
+}
+
+a:link, a:visited {
+  color: orange;
+}
+a:hover {
+  color: red;
+}
+
+#para1 {
+  	text-align: center;
+  	color: green;
+    font-size: 20px;
+}
+
+#para2, #para3 {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+#para2 {
+  float: left;
+  text-align: left;
+  line-height: 60px;
+  padding: 10px;
+  width: 45%;
+  border-radius: 10px;
+  color: blue;
+  background-color: lightblue;
+}
+#para3 {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  width: 45%;
+  border-radius: 10px;
+  color: tomato;
+  background-color: #F3CCA3;
+}
+#para4 {
+  clear: both;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  color: dimgray;
+  background-color: lightgrey;
+}
+#para5 {
+  	text-align: left;
+  	color: violet;
+}
+#para6 {
+  	text-align: center;
+  	color: orange;
+    font-size: 30px;
+}
+
+#para7 {
+  text-align: center;
+  color: dimgrey;
+}
+#title {
+  	text-align: center;
+  	color: teal;
+    font-size: 100px;
+}
+h2 {
+  text-align: center;
+}
+
+#tablestuff {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #8BD4D9;
+}
+
+#table {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  width: 75%;
+}
+
+#table td, #table th {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+#table tr:nth-child(even){background-color: #f2f2f2;}
+#table tr:nth-child(odd){background-color: lightgrey;}
+
+#table tr:hover {background-color: aquamarine;}
+
+#table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #008B8B;
+  color: #F4F9F9;
+}
